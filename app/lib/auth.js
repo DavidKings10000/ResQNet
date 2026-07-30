@@ -1,0 +1,11 @@
+import { auth } from '../../auth';
+
+export async function getCurrentUser() {
+  const session = await auth();
+  return session?.user || null;
+}
+
+export async function hasRole(role) {
+  const user = await getCurrentUser();
+  return user?.role === role;
+}

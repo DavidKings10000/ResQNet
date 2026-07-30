@@ -1,0 +1,8 @@
+[Citizen App] -> [Next.js Frontend] -> [API Routes]
+[API Routes] -> [AI Triage Service]
+[API Routes] -> [Database]
+[API Routes] -> [Notification Service]
+[API Routes] -> [Blockchain Audit Layer]
+[Dispatcher Dashboard] -> [API Routes]
+[Hospital Dashboard] -> [API Routes]
+[Admin Dashboard] -> [API Routes]
